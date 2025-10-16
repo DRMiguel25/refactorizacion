@@ -1,7 +1,8 @@
 .active-link {
-  @apply bg-[#3b82f6] rounded-none text-white;
+  @apply bg-[#3b82f6] text-white;
+  border-radius: 0 !important;
 
-  .text-slate-400 {
-    @apply text-blue-200;
+  .text-xs {
+    @apply text-blue-100;
   }
 }
